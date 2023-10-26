@@ -1,1 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.main-frame {
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.inside-frame {
+    background-color: hsl(216, 50%, 16%);
+    height: 570px;
+    width: 340px;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.main-img {
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+/* .main-img:hover {
+    content: url(/Challenge/nft-preview-card-component-main/images/icon-view.svg);
+    filter: blur(2px);
+} */
+
+.h1-inframe {
+    margin-top: 20px;
+    font-size: 22px;
+    margin-left: 20px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.p-inframe {
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.line {
+    border-color: hsl(215, 32%, 27%);
+    border-top-style: dotted;
+    width: 85%;
+    margin-top: 5px;
+}
+
+.eth-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .eth-small {
+    margin-right: 5px;
+  }
+
+  .p-eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+  }
+
+.clock {
+    margin-left: 105px;
+}
+
+.p-clock {
+    color: hsl(215, 51%, 70%);
+    margin-left: 6px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.annotation {
+    display: flex;
+    align-items: flex-start;
+}
+
+.avatar-img {
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 7px;
+    border-radius: 100px;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.anno-1 {
+    color: hsl(215, 51%, 70%);
+    margin-left: 13px;
+    margin-top: 14px;   
+    font-family: 'Outfit', sans-serif;
+    display: inline-block;
+}
+
+.anno-2 {
+    color: hsl(0, 0%, 100%);
+    margin-left: 4px;
+    margin-top: 14px;
+    font-family: 'Outfit', sans-serif;
+}
+
+footer {
+    font-size: 15px; 
+    text-align: center;
+    margin: 0;
+    color: white;
+    background-color: hsl(217, 54%, 11%);
+}
